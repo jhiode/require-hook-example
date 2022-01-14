@@ -1,0 +1,24 @@
+{
+  "name": "require-hook-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jonas Holland <mail@jhio.de>",
+  "license": "MIT",
+  "bin": {
+    "foobar": "./bin.js"
+  },
+  "scripts": {
+    "start": "node bin.js"
+  },
+  "dependencies": {
+    "@swc/core": "^1.2.129",
+    "debug": "^4.3.3",
+    "find-up": "^5.0.0",
+    "pirates": "^4.0.4",
+    "source-map-support": "^0.5.21",
+    "typescript": "^4.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8"
+  }
+}
